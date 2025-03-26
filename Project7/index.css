@@ -21,19 +21,51 @@
     padding: 1rem;
   }
 
-  .image {
+  .image-container{
+    position: relative;
     margin-bottom: 1rem;
   }
 
-  .image img {
+  .original-image {
+    position: relative;
+  }
+
+  .original-image img {
     border-radius: 0.3rem;
     width: 13rem;
     height: 13rem;
   }
 
+  .hover-image {
+    position: absolute;
+    top: 0;
+    background-color: #0092A1;
+    width: 13rem;
+    height: 13rem;
+    text-align: center;
+    cursor: pointer;
+    opacity: 0%;
+  }
+
+  .hover-image img {
+    border-radius: 0.3rem;
+    position: relative;
+    top: 5rem;
+  }
+
+  .hover-image:hover{
+    opacity: 70%;
+  }
+
+
   .title {
     font-family: 'Outfit medium', sans-serif;
     margin-bottom: 1rem;
+  }
+
+  .title:hover {
+    color: #08FAF8;
+    cursor: pointer;
   }
 
   .description {
@@ -98,4 +130,9 @@
     font-family: 'Outfit medium', sans-serif;
     font-size: 0.7rem;
     margin-left: 0.25rem;
+  }
+
+  .authorName:hover {
+    color: #08FAF8;
+    cursor: pointer;
   }
