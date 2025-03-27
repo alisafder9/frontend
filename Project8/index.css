@@ -217,7 +217,7 @@
     background-color: hsla(256, 72%, 46%, 1);
   }
 
-  @media (max-width: 500px) and (min-width: 400px) {
+  @media screen and (max-width: 400px) {
 
     body {
       padding: 0;
