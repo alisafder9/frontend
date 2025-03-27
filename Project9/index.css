@@ -1,0 +1,144 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+  }
+
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+
+  .container {
+    display: flex;
+    width: 35rem;
+    height: 20rem;
+  }
+
+  .sedans {
+    background-color: hsl(31, 77%, 52%);
+    padding: 2rem;
+    border-radius: 0.2rem 0 0 0.2rem;
+  }
+
+  .sedans img {
+    height: 1.5rem;
+    margin-bottom: 1rem;
+  }
+
+  .sedans .button {
+    font-family: 'Lexend Deca Medium', sans-serif;
+    background-color: white;
+    color: hsl(31, 77%, 52%);
+    font-size: 0.6rem;
+    border-radius: 2rem;
+    padding: 0.5rem;
+    width: 70%;
+    text-align: center;
+    margin-bottom: 1rem;
+    cursor: pointer;
+  }
+
+  .sedans .button:hover {
+    background-color: hsl(31, 77%, 52%);
+    border: 1px solid white;
+    color: white;
+  }
+
+  .suv {
+    background-color: hsl(184, 100%, 22%);
+    padding: 2rem;
+  }
+
+  .suv img {
+    height: 1.5rem;
+    margin-bottom: 1rem;
+  }
+
+  .suv .button {
+    font-family: 'Lexend Deca Medium', sans-serif;
+    background-color: white;
+    color: hsl(184, 100%, 22%);
+    font-size: 0.6rem;
+    border-radius: 2rem;
+    padding: 0.5rem;
+    width: 70%;
+    text-align: center;
+    margin-bottom: 1rem;
+    cursor: pointer;
+  }
+
+  .suv .button:hover {
+    background-color: hsl(184, 100%, 22%);
+    border: 1px solid white;
+    color: white;
+  }
+
+  .luxury {
+    background-color: hsl(179, 100%, 13%);
+    padding: 2rem;
+    border-radius: 0 0.2rem 0.2rem 0;
+  }
+
+  .luxury img {
+    height: 1.5rem;
+    margin-bottom: 1rem;
+  }
+
+  .luxury .button {
+    font-family: 'Lexend Deca Medium', sans-serif;
+    background-color: white;
+    color: hsl(179, 100%, 13%);
+    font-size: 0.6rem;
+    border-radius: 2rem;
+    padding: 0.5rem;
+    width: 70%;
+    text-align: center;
+    margin-bottom: 1rem;
+    cursor: pointer;
+  }
+
+  .luxury .button:hover {
+    background-color: hsl(179, 100%, 13%);
+    border: 1px solid white;
+    color: white;
+  }
+
+  .heading {
+    font-family: 'Big Shoulders Display Medium', sans-serif;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color: white;
+  }
+
+  .paragraph {
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 0.55rem;
+    opacity: 70%;
+    color: white;
+    margin-bottom: 2rem;
+    line-height: 1rem;
+  }
+
+  @media (min-width: 320px) and (max-width: 550px) {
+    .container {
+      flex-direction: column;
+      width: 15rem;
+      margin: 1rem;
+    }
+
+    .sedans .button {
+      width: 50%;
+    }
+
+    .suv .button {
+      width: 50%;
+    }
+
+    .luxury .button {
+      width: 50%;
+    }
+    
+  }
