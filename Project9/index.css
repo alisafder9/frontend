@@ -120,13 +120,19 @@
     color: white;
     margin-bottom: 2rem;
     line-height: 1rem;
+    margin-right: 1.6rem;
   }
 
   @media (min-width: 320px) and (max-width: 550px) {
+    body {
+      height: auto;
+    }
+    
     .container {
       flex-direction: column;
       width: 15rem;
-      margin: 1rem;
+      margin: 1rem 5rem;
+      margin-bottom: 1rem;
     }
 
     .sedans .button {
