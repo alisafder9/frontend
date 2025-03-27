@@ -1,0 +1,249 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+
+  body {
+    font-family: 'Hanken Grotesk', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #ECF2FF;
+  }
+
+  .flex-container {
+    background-color: white;
+    display: flex;
+    border-radius: 1rem;
+    width: 30rem;
+    height: 22rem;
+    border-radius: 1rem;
+  }
+
+  .item1 {
+    background-image: linear-gradient(#6542FE, #342EEA);
+    border-radius: 1rem;
+    width: 15rem;
+    height: 22rem;
+    padding: 2rem;
+    color: white;
+    text-align: center;
+  }
+
+  .result {
+    margin-bottom: 1.5rem;
+    font-size: 0.9rem;
+    opacity: 80%;
+  }
+
+  .score {
+    font-family: 'Rubik medium', sans-serif;
+    background-image: linear-gradient(#4B24CD, #4734EE);
+    border-radius: 50%;
+    height: 9rem;
+    width: 9rem;
+    align-content: center;
+    margin-bottom: 1rem;
+  }
+
+  .score-obt {
+    font-size: 3rem;
+  }
+
+  .score-total {
+    font-family: 'Rubik', sans-serif;
+    opacity: 40%;
+    font-size: 0.7rem;
+  }
+
+  .comments-head {
+    font-size: 1.4rem;
+    margin-bottom: 1rem;
+  }
+
+  .comments-detail {
+    opacity: 60%;
+    font-size: 0.65rem;
+  }
+
+  .item2 {
+    padding: 2rem;
+    height: 22rem;
+    width: 20rem;
+  }
+
+  .summary {
+    margin-bottom: 1rem;
+    font-weight: bold;
+  }
+
+  .section1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 2rem;
+    margin-bottom: 1rem;
+    background-color: #FFF6F7;
+    padding: 0.7rem;
+    border-radius: 0.5rem;
+  }
+
+  .reaction {
+    color: red;
+    font-size: 0.6rem;
+  }
+
+  .reaction img {
+    height: 0.6rem;
+  }
+
+  .reaction-score {
+    font-family: 'Rubik medium', sans-serif;
+    font-size: 0.6rem;
+  }
+
+  .reaction-score span {
+    font-family: 'Rubik', sans-serif;
+    opacity: 40%;
+  }
+
+  .section2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 2rem;
+    margin-bottom: 1rem;
+    background-color: #FFFAF4;
+    padding: 0.7rem;
+    border-radius: 0.5rem;
+  }
+
+  .memory {
+    color: #F0CE7C;
+    font-size: 0.6rem;
+    align-content: center;
+  }
+
+  .memory img {
+    height: 0.6rem;
+  }
+
+  .memory-score {
+    font-family: 'Rubik medium', sans-serif;
+    font-size: 0.6rem;
+  }
+
+  .memory-score span {
+    font-family: 'Rubik', sans-serif;
+    opacity: 40%;
+  }
+
+  .section3 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 2rem;
+    margin-bottom: 1rem;
+    background-color: #E5F8F3;
+    padding: 0.7rem;
+    border-radius: 0.5rem;
+  }
+
+  .verbal {
+    color: #16C197;
+    font-size: 0.6rem;
+    align-content: center;
+  }
+
+  .verbal img {
+    height: 0.6rem;
+  }
+
+  .verbal-score {
+    font-family: 'Rubik medium', sans-serif;
+    font-size: 0.6rem;
+  }
+
+  .verbal-score span {
+    font-family: 'Rubik', sans-serif;
+    opacity: 40%;
+  }
+
+  .section4 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 2rem;
+    margin-bottom: 1.5rem;
+    background-color: #E7E9FA;
+    padding: 0.7rem;
+    border-radius: 0.5rem;
+  }
+
+  .visual {
+    color: #5D25D4;
+    font-size: 0.6rem;
+    align-content: center;
+  }
+
+  .visual img {
+    height: 0.6rem;
+  }
+
+  .visual-score {
+    font-family: 'Rubik medium', sans-serif;
+    font-size: 0.6rem;
+  }
+
+  .visual-score span {
+    font-family: 'Rubik', sans-serif;
+    opacity: 40%;
+  }
+
+  .button {
+    cursor: pointer;
+    background-color: #303B5A;
+    color: white;
+    width: 100%;
+    border-radius: 1.5rem;
+    padding: 0.7rem;
+    text-align: center;
+    font-size: 0.9rem;
+  }
+
+  .button:hover {
+    background-color: hsla(256, 72%, 46%, 1);
+  }
+
+  @media (max-width: 500px) and (min-width: 400px) {
+
+    body {
+      padding: 0;
+      margin: 0;
+      height: auto;
+    }
+    .flex-container {
+      flex-direction: column;
+      width: 100%;
+      height: auto;
+    }
+
+    .item1 {
+      width: 100%;
+      border-radius: 0 0 1rem 1rem;
+    }
+
+    .score {
+      height: 7rem;
+      width: 7rem;
+      position: relative;
+      left: 7rem;
+    }
+
+    .comments-detail {
+      font-size: 1rem;
+    }
+    
+  }
