@@ -29,6 +29,11 @@
     height: 22rem;
     padding: 2rem;
     color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
     text-align: center;
   }
 
