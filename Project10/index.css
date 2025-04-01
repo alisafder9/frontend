@@ -7,7 +7,7 @@
   html,
   body {
     font-family: 'Red Hat Display', sans-serif;
-    background-image: url('pattern-background-desktop.svg');
+    background-image: url('https://github.com/alisafder9/frontend/blob/main/Project10/pattern-background-desktop.svg');
     background-position: top;
     background-size: contain;
     background-repeat: no-repeat;
