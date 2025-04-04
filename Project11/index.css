@@ -41,8 +41,8 @@ body {
 
 .bg-pattern-top {
     background-image: url('bg-pattern-top.svg');
-    top: -50%;
-    left: -50%;
+    top: -150%;
+    left: -25%;
 }
 
 .bg-pattern-bottom {
