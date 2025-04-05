@@ -16,6 +16,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    height: 100vh;
 }
 
 /* Background patterns container */
@@ -33,22 +34,22 @@ body {
 .bg-pattern-top,
 .bg-pattern-bottom {
     position: absolute;
-    width: 978px;
-    height: 978px;
+    width: 1000px;
+    height: 1000px;
     background-size: contain;
     background-repeat: no-repeat;
 }
 
 .bg-pattern-top {
     background-image: url('bg-pattern-top.svg');
-    top: -150%;
+    top: -120%;
     left: -25%;
 }
 
 .bg-pattern-bottom {
     background-image: url('bg-pattern-bottom.svg');
-    bottom: -150%;
-    right: -50%;
+    bottom: -120%;
+    right: -25%;
 }
 
 /* Profile card */
@@ -57,7 +58,7 @@ body {
     border-radius: 15px;
     overflow: hidden;
     width: 350px;
-    box-shadow: 0 50px 100px rgba(0, 0, 0, 0.2);
+    height: 380px;
     text-align: center;
     position: relative;
     z-index: 2; /* Higher than background patterns */
