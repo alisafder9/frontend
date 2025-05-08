@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+
+  body {
+    background-image: url(bg-pattern-top-desktop.svg),
+      url(bg-pattern-bottom-desktop.svg);
+    background-repeat: no-repeat, no-repeat;
+    background-size: 40% 60%, 70% 80%;
+    background-position: left top, right bottom;
+    font-family: 'League Spartan', sans-serif;
+    color: #511F50;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 100vh;
+  }
+  .card {
+    display: flex;
+    padding: 8rem 8rem 0rem 8rem;
+  }
+  .heading {
+    width: 50%;
+  }
+  .heading>h1 {
+    font-weight: 900;
+    font-size: 3rem;
+    width: 20rem;
+    margin-bottom: 1.5rem;
+  }
+  .heading>.paragraph {
+    opacity: 0.7;
+    width: 60%;
+  }
+  .stars {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    position: relative;
+    top: 1rem;
+  }
+  img {
+    height: 0.8rem;
+  }
+  img:last-child {
+    margin-right: 1.5rem;
+  }
+  .review-one, .review-two, .review-three {
+    background-color: #F7F2F8;
+    width: 22rem;
+    padding: 1rem;
+    font-weight: 700;
+    font-size: 0.8rem;
+    border-radius: 5px;
+    position: relative;
+  }
+  .review-two {
+    margin-left: 2rem;
+  }
+  .review-three {
+    margin-left: 4rem;
+  }
+  .comments {
+    display: flex;
+    gap: 1.5rem;
+    padding-left: 0rem;
+    padding-bottom: 2rem;
+    margin-bottom: 0rem;
+    margin-top: 2.5rem;
+  }
+  .smith, .roberts, .wallace {
+    background-color: #511F50;
+    color: white;
+    padding: 1.5rem;
+    font-weight: 600;
+    border-radius: 5px;
+    position: relative;
+    width: 20rem;
+  }
+  .roberts {
+    margin-top: 10px;
+  }
+  .wallace {
+    margin-top: 20px;
+  }
+  .author-image {
+    float: left;
+    height: 2rem;
+    border-radius: 50%;
+    margin-right: 1rem;
+  }
+  .status {
+    color: hsl(333, 80%, 67%);
+    font-size: 0.9rem;
+    margin-bottom: 2rem;
+  }
+  quote {
+    font-weight: normal;
+    color: white;
+    opacity: 0.7;
+    line-height: 1.2;
+    font-size: 0.9rem;
+  }
